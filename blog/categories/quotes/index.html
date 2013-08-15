@@ -1,0 +1,133 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="A blog about website development, jiu-jitsu and other unrelated crap." name="description">
+		<meta content="Webjitsu" name="author">
+		
+		<title>Category: Quotes &mdash; Webjitsu</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,100' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Inconsolata&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		
+		
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Webjitsu" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<h1 class="title"><a href="/"><img src="/images/logo.png" alt="Webjitsu"></a></h1>
+				<h2>let's roll</h2>
+			</header>
+		
+				<!-- START OF _layouts/page.html -->
+<article>
+<header>
+	
+			<h1 class="center">Category: Quotes</h1>
+	
+</header>
+<!-- BEGIN _layouts/category_index.html -->
+
+
+
+
+
+  
+	<div class="cat-year">2013</div>
+
+
+
+  
+	<div class="cat-month">August</div>
+
+
+<!-- BEGIN _includes/archive_post.html -->
+
+<a class="title-listing" href="/blog/2013/08/14/global-economy/">global economy</a><br>
+<!-- END _includes/archive_post.html -->
+
+
+
+
+<!-- _layouts/category_index.html -->
+
+</article>
+<!-- END OF _layouts/page.html -->
+
+		
+
+			<nav>
+				<ul>
+					<li><a href="/blog/archives">Archive</a></li>
+					<li><a href="/atom.xml">RSS</a></li>
+				<ul>
+			</nav> <!-- // .nav -->
+
+			<footer>
+				<p><strong>Juan "Harek" Urrios</strong>, HxC kid, BJJ blue belt, web developer, straight edge.</p>
+
+
+			</footer>
+
+			
+			
+		</div> <!-- // .wrap -->
+		<script type="text/javascript" src="/js/fluidvids.min.js"></script>
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			
+			
+		});
+	</script>
+
+
+	<!-- GOOGLE ANALYTICS -->
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-43191433-1', 'webjit.su');
+	  ga('send', 'pageview');
+
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

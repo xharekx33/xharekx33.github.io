@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Bitcoin | Webjitsu]]></title>
+  <link href="http://xharekx33.github.io/blog/categories/bitcoin/atom.xml" rel="self"/>
+  <link href="http://xharekx33.github.io/"/>
+  <updated>2013-08-15T22:02:14+02:00</updated>
+  <id>http://xharekx33.github.io/</id>
+  <author>
+    <name><![CDATA[Harek]]></name>
+    <email><![CDATA[xharekx33@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[global economy]]></title>
+    <link href="http://xharekx33.github.io/blog/2013/08/14/global-economy/"/>
+    <updated>2013-08-14T08:15:00+02:00</updated>
+    <id>http://xharekx33.github.io/blog/2013/08/14/global-economy</id>
+    <content type="html"><![CDATA[<p>What do we do about the fact that we’ve built a global economy on a system optimized for moving pictures of cats?</p>
+]]></content>
+  </entry>
+  
+</feed>

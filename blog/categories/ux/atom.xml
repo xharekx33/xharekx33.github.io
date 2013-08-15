@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: UX | Webjitsu]]></title>
+  <link href="http://xharekx33.github.io/blog/categories/ux/atom.xml" rel="self"/>
+  <link href="http://xharekx33.github.io/"/>
+  <updated>2013-08-15T22:02:14+02:00</updated>
+  <id>http://xharekx33.github.io/</id>
+  <author>
+    <name><![CDATA[Harek]]></name>
+    <email><![CDATA[xharekx33@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[On infinite scrolling and pagination]]></title>
+    <link href="http://xharekx33.github.io/blog/2013/08/14/on-infinite-scrolling-and-pagination/"/>
+    <updated>2013-08-14T18:48:00+02:00</updated>
+    <id>http://xharekx33.github.io/blog/2013/08/14/on-infinite-scrolling-and-pagination</id>
+    <content type="html"><![CDATA[<p>I’ve been thinking a lot about infinite scrolling, how fashionable it’s become lately and why I think <strong>it’s being fundamentally misused</strong> in many many cases.</p>
+
+<p>Infinite scrolling is a great way to reduce friction and make the user consume more content. No need to find and click that “next" button. Just keep on mindlessly scrolling until you find something that looks interesting to click on it.</p>
+
+<p><strong>Infinite scrolling is perfect for collections of content that are pretty much impermanent</strong> since they get updated or change too often to make pagination viable or useful and when <strong>archiving doesn&rsquo;t make much sense because the content’s freshness is a mayor asset</strong>. Things such as such as the Tumblr dashboard, Svpply’s shop page and the like. The user cares about the latest stuff, not what was posted a month ago&hellip; (For those interested, here&rsquo;s a great post by Alex MacCaw about <a href="http://blog.alexmaccaw.com/dynamic-infinite-pagination" title="Alex MacCaw">dynamic pagination on sites with constantly changing content</a>. Sites like Hacker News or Medium.)</p>
+
+<p><strong>Pagination on the other hand is great for going through large collections of items, with archival value, in an orderly manner</strong>. You may not have time to go through it all in one sitting so you want to be able to save your position to take a look at it in a few days. In the meantime there might be new content that makes that saved position a bit inexact, but it provides with a good enough reference point to resume navigation.</p>
+
+<p>The problem begins when it’s used just because “<em>it’s the cool thing to do</em>&ldquo;.</p>
+
+<p>More and more sites are adopting it as the way to go through it’s contents. News sites. Blogs. Portfolios… and in many cases it’s fundamentally flawed because of this 2 main reasons:</p>
+
+<ul>
+<li><p> It doesnt give you a reference point to resume navigation on a later date:</p>
+
+<p>If I want to keep on reading, I need to keep the page open in my browser or else I lose my position on the site and I have to start all over again, having to reload everything and then try to find where I was before.</p>
+
+<p>If I click on something that interests me I have to make sure I open it in a new tab if I want to resume browsing later.</p></li>
+<li><p> Too resource intensive:</p>
+
+<p>Yeah, the actual loading of new content is a breeze, i’m not saying using javascript to fetch more stuff is bad&hellip; but when you go through what would normally be 200+ pages of content just by scrolling and you end up with a insanely tall single page site&hellip; things start to get heavy. All those pictures and elements make the browser laggy.</p></li>
+</ul>
+
+
+<p>So, what’s a good solution that has the best of both worlds? <strong>Using hashbangs</strong>. I know hashbang URLs have a bad reputation and I agree with most of the critics, but this is one of this times when they can be very valuable if implemented correctly:</p>
+
+<ul>
+<li><p> Update the URL with every content request:</p>
+
+<p>Every time the script fetches new content update the URL adding a “page" counter (ie: site.com/#57). This index number must really match the actual page number for the new content if the site was using standard pagination</p></li>
+<li><p> Transform the hashbang to an actual page position.</p>
+
+<p>If the user enters an URL containing a hashbang into the browser, redirect him to that archive page (ie: site.com/#57 automatically redirects you to site.com/page/57)</p></li>
+<li><p> Let the user keep on scrolling:</p>
+
+<p>When he loads said page 57, keep the site working as if he had started from the beggining. He keeps scrolling, new page numbers get added to the URL and so on (ie: he ends up in site.com/page/57#98 that would redirect to site.com/page/98)</p></li>
+</ul>
+
+
+<p>This lets the user effortlessly navigate the site, keep on browsing on a later date, and “clean" the page state to get rid of all that content that he’s already gone through and free browser resources. (Old content could also be discarded using JS to keep it from wasting resources, but that&rsquo;s not the point of this post)</p>
+
+<p>As said: Best of both worlds.</p>
+
+<p class="small">(I wrote this originally <a href="http://xharekx33.tumblr.com/post/28621454495/ux-rant-on-infinite-scrolling-and-pagination">on Tumblr</a> on Aug 3rd, 2012.)</p>
+
+
+
+]]></content>
+  </entry>
+  
+</feed>
