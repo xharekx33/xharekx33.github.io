@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Quotes | Webjitsu]]></title>
-  <link href="http://xharekx33.github.io/blog/categories/quotes/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Advertising | Webjitsu]]></title>
+  <link href="http://xharekx33.github.io/blog/categories/advertising/atom.xml" rel="self"/>
   <link href="http://xharekx33.github.io/"/>
   <updated>2013-08-19T18:38:09+02:00</updated>
   <id>http://xharekx33.github.io/</id>
@@ -21,15 +21,6 @@
     <content type="html"><![CDATA[<p>The sales and marketing economy is zero sum. Each business must work harder and harder at new tag lines, gizmos, tricks, and jingles. And when sales guys at the other company work harder, you must work harder too.</p>
 
 <p>[&hellip;] Average work hours declined for a century – and then started curving back upwards as the everyone switched the zero sum battle of sales and marketing. The future is here, and it is the sales desk at Dunder Mifflin.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[global economy]]></title>
-    <link href="http://xharekx33.github.io/blog/2013/08/14/global-economy/"/>
-    <updated>2013-08-14T08:15:00+02:00</updated>
-    <id>http://xharekx33.github.io/blog/2013/08/14/global-economy</id>
-    <content type="html"><![CDATA[<p>What do we do about the fact that we’ve built a global economy on a system optimized for moving pictures of cats?</p>
 ]]></content>
   </entry>
   
