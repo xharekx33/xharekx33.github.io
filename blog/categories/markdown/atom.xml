@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Markdown | Webjitsu]]></title>
+  <link href="http://xharekx33.github.io/blog/categories/markdown/atom.xml" rel="self"/>
+  <link href="http://xharekx33.github.io/"/>
+  <updated>2013-09-14T20:10:46+02:00</updated>
+  <id>http://xharekx33.github.io/</id>
+  <author>
+    <name><![CDATA[Harek]]></name>
+    <email><![CDATA[xharekx33@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Writing and WYSIWYG text editors. Medium vs CKEditor]]></title>
+    <link href="http://xharekx33.github.io/blog/2013/09/14/writing-wysiwyg-text-editors-medium-vs-CKEditor/"/>
+    <updated>2013-09-14T19:48:00+02:00</updated>
+    <id>http://xharekx33.github.io/blog/2013/09/14/writing-wysiwyg-text-editors-medium-vs-CKEditor</id>
+    <content type="html"><![CDATA[<p>I was reading <strong>Robby Inebretsen</strong>&rsquo;s post &ldquo;<a href="http://nerdplusart.com/markdown-is-the-future/">Markdown is the future of writing</a>&rdquo; when I came to the following realization: <strong>I despise CKEditor and all similar WYSIWYG editors.</strong></p>
+
+<p>No, I don&rsquo;t just dislike them. It&rsquo;s an angrier feeling. They annoy me to no end. 99.5% of the time I immediately hit the <em>View Source</em> button so I don&rsquo;t have to deal with them. I&rsquo;m always glad to be in HTML-land.</p>
+
+<p>Robby writes about how most people are not yet ready for working with raw Markdown, and how the guys at Medium came to a solution that works for them and makes it really easy to format posts. I have to give them kudos: <strong>Medium&rsquo;s toolbar is a marked improvement over most WYSIWYG editors out there.</strong> There is no stupid top bar that makes you scroll up whenever you need it. There&rsquo;s not a hundred buttons you never use. Why do most editors look like MS Word? Their interface is <em>clunky, outdated and doesn&rsquo;t work well in a web browser</em>.</p>
+
+<p><img src="/images/posts/medium_com_toolbar.png" title="Medium's toolbar" alt="Medium's toolbar" /></p>
+
+<p>Medium&rsquo;s solution is very much in line with the recent crop of minimal and distraction-free text editors that let you focus on the content rather than the formatting. It&rsquo;s useful and elegant. It&rsquo;s concise and to the point. You select some text and a small set of actions pop-up. It&rsquo;s (almost) perfect for them, but <em>sadly, it doesn&rsquo;t work in most situations.</em></p>
+
+<p>A <strong>general solution</strong> needs to be good for shorter pieces of writing, to be used on pages where there are more fields to fill or actions to complete. It needs to suit any situation where you&rsquo;d need a text area — no matter how big — and basic formatting of the input. It should also require no guesswork from less tech-savvy users.</p>
+
+<p>I think the solution is quite simple actually. Don&rsquo;t hide the toolbar. But don&rsquo;t place it at the top of the textarea either. <strong><a href="https://www.google.com/search?hl=en&amp;q=position:sticky">Make it sticky</a></strong>. Even better, make it a sticky <em>sidebar</em>.</p>
+
+<p><img src="/images/posts/sticky_sidebar.png" title="Sticky sidebar concept" alt="Sticky sidebar concept" /></p>
+
+<p>That way it doesn&rsquo;t matter if you scroll or if the textarea is really tall: the sidebar is always there when needed. You don&rsquo;t present the user with a blank field and depend on him triggering the toolbar. It&rsquo;s obvious from the get go. You don&rsquo;t use (scarcer) vertical screen space. You don&rsquo;t need the user to know Markdown or HTML. The only drawback I can see is that you can&rsquo;t include too many options or else the menu becomes too tall, but <strong>you shouldn&rsquo;t be doing that anyway</strong>.</p>
+
+<p>Split view editors with live preview like <a href="http://mouapp.com/">Mou</a> or the one <a href="http://tryghost.org/">Ghost</a> uses also seemed like a good idea to me at first, but they take more space and they distract from the actual writing making you think about syntax. WYSIWYG with a sticky sidebar is the way to go.</p>
+
+<p>On a personal project I&rsquo;m working on my plan is to implement all this. Text areas will have a sticky sidebar (using jQuery. Browser support for CSS3&rsquo;s &lsquo;position:sticky&rsquo; property is <strong>awful</strong> at the moment), it will work for both Markdown and HTML content  — the project requires it — and there will be a <em>View Source</em> button. Better safe than sorry.</p>
+
+<p>Once I get it working I might turn it into a jQuery plugin or something. But if you beat me to it, <strong>please <a href="mailto:xharekx33@gmail.com">let me know</a></strong>. For the sake of efficiency.</p>
+]]></content>
+  </entry>
+  
+</feed>
