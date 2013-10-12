@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Hacking | Webjitsu]]></title>
+  <link href="http://xharekx33.github.io/blog/categories/hacking/atom.xml" rel="self"/>
+  <link href="http://xharekx33.github.io/"/>
+  <updated>2013-10-12T08:45:54+02:00</updated>
+  <id>http://xharekx33.github.io/</id>
+  <author>
+    <name><![CDATA[Harek]]></name>
+    <email><![CDATA[xharekx33@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[optimize for happiness]]></title>
+    <link href="http://xharekx33.github.io/blog/2013/10/12/optimize-for-happiness/"/>
+    <updated>2013-10-12T08:15:00+02:00</updated>
+    <id>http://xharekx33.github.io/blog/2013/10/12/optimize-for-happiness</id>
+    <content type="html"><![CDATA[<p>This is what I mean by optimizing for happiness: I&rsquo;m a hacker; I&rsquo;m happy when I&rsquo;m building things of value, not when I&rsquo;m writing a business plan filled with make believe numbers.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -4,7 +4,7 @@
 	<title><![CDATA[Webjitsu]]></title>
 	<link href="http://xharekx33.github.io/atom.xml" rel="self"/>
 	<link href="http://xharekx33.github.io/"/>
-	<updated>2013-09-14T20:10:46+02:00</updated>
+	<updated>2013-10-12T08:45:54+02:00</updated>
 	<id>http://xharekx33.github.io/</id>
 	<author>
 		<name><![CDATA[Harek]]></name>
@@ -12,6 +12,24 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[optimize for happiness]]></title>
+		
+		<link href="http://xharekx33.github.io/blog/2013/10/12/optimize-for-happiness/"/>
+		<updated>2013-10-12T08:15:00+02:00</updated>
+		<id>http://xharekx33.github.io/blog/2013/10/12/optimize-for-happiness</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>This is what I mean by optimizing for happiness: I&rsquo;m a hacker; I&rsquo;m happy when I&rsquo;m building things of value, not when I&rsquo;m writing a business plan filled with make believe numbers.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
