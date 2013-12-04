@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Coding | Webjitsu]]></title>
-  <link href="http://xharekx33.github.io/blog/categories/coding/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Punk | Webjitsu]]></title>
+  <link href="http://xharekx33.github.io/blog/categories/punk/atom.xml" rel="self"/>
   <link href="http://xharekx33.github.io/"/>
   <updated>2013-12-04T13:33:13+01:00</updated>
   <id>http://xharekx33.github.io/</id>
@@ -45,15 +45,6 @@
 <p>Search for new goals. Be ambitious. Create new tools people can use to live a better life. I&rsquo;m begging you.</p>
 
 <p>Break free. Change the world. Programming is not a geek thing, <strong>it&rsquo;s a punk thing</strong>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[optimize for happiness]]></title>
-    <link href="http://xharekx33.github.io/blog/2013/10/12/optimize-for-happiness/"/>
-    <updated>2013-10-12T08:15:00+02:00</updated>
-    <id>http://xharekx33.github.io/blog/2013/10/12/optimize-for-happiness</id>
-    <content type="html"><![CDATA[<p>This is what I mean by optimizing for happiness: I&rsquo;m a hacker; I&rsquo;m happy when I&rsquo;m building things of value, not when I&rsquo;m writing a business plan filled with make believe numbers.</p>
 ]]></content>
   </entry>
   
